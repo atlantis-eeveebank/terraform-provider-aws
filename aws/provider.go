@@ -658,6 +658,7 @@ func Provider() *schema.Provider {
 			"aws_eip_association":                                     resourceAwsEipAssociation(),
 			"aws_eks_cluster":                                         resourceAwsEksCluster(),
 			"aws_eks_fargate_profile":                                 resourceAwsEksFargateProfile(),
+			"aws_eks_identity_provider_config":                        resourceAwsEksIdentityProviderConfig(),
 			"aws_eks_node_group":                                      resourceAwsEksNodeGroup(),
 			"aws_elasticache_cluster":                                 resourceAwsElasticacheCluster(),
 			"aws_elasticache_global_replication_group":                resourceAwsElasticacheGlobalReplicationGroup(),
